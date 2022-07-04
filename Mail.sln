@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{250307A5-053F-40A3-90A7-D7D73AD2A4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail.Worker", "src\Mail.Worker\Mail.Worker.csproj", "{7511A2E3-8781-4DB5-9BE9-1F40C0F0758B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{102A29A1-B7EF-423A-BE89-A79007A8FD12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7511A2E3-8781-4DB5-9BE9-1F40C0F0758B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7511A2E3-8781-4DB5-9BE9-1F40C0F0758B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7511A2E3-8781-4DB5-9BE9-1F40C0F0758B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7511A2E3-8781-4DB5-9BE9-1F40C0F0758B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7511A2E3-8781-4DB5-9BE9-1F40C0F0758B} = {250307A5-053F-40A3-90A7-D7D73AD2A4DC}
+	EndGlobalSection
+EndGlobal
